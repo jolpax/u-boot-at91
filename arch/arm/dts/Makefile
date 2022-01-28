@@ -877,6 +877,12 @@ dtb-$(CONFIG_TARGET_AT91SAM9X5EK) += \
 
 dtb-$(CONFIG_TARGET_SAM9X60EK) += sam9x60ek.dtb
 
+dtb-$(CONFIG_TARGET_NCX1) += ncx1.dtb
+
+dtb-$(CONFIG_TARGET_NCX1) += ndx1.dtb
+
+dtb-$(CONFIG_TARGET_NCX1) += nsr1.dtb
+
 dtb-$(CONFIG_TARGET_AT91SAM9N12EK) += at91sam9n12ek.dtb
 
 dtb-$(CONFIG_TARGET_GARDENA_SMART_GATEWAY_AT91SAM) += \

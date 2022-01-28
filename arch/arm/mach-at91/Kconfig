@@ -170,6 +170,24 @@ config TARGET_SAM9X60EK
 	select BOARD_EARLY_INIT_F
 	select BOARD_LATE_INIT
 
+config TARGET_NCX1
+	bool "NCX1 board"
+	select SAM9X60
+	select BOARD_EARLY_INIT_F
+	select BOARD_LATE_INIT
+
+config TARGET_NDX1
+	bool "NDX1 board"
+	select SAM9X60
+	select BOARD_EARLY_INIT_F
+	select BOARD_LATE_INIT
+
+config TARGET_NSR1
+	bool "NDX1 board"
+	select SAM9X60
+	select BOARD_EARLY_INIT_F
+	select BOARD_LATE_INIT
+
 config TARGET_SAMA5D2_PTC_EK
 	bool "SAMA5D2 PTC EK board"
 	select BOARD_EARLY_INIT_F
@@ -334,6 +352,9 @@ source "board/atmel/at91sam9n12ek/Kconfig"
 source "board/atmel/at91sam9rlek/Kconfig"
 source "board/atmel/at91sam9x5ek/Kconfig"
 source "board/atmel/sam9x60ek/Kconfig"
+source "board/atmel/ncx1/Kconfig"
+source "board/atmel/ndx1/Kconfig"
+source "board/atmel/nsr1/Kconfig"
 source "board/atmel/sama7g5ek/Kconfig"
 source "board/atmel/sama5d2_ptc_ek/Kconfig"
 source "board/atmel/sama5d2_xplained/Kconfig"
